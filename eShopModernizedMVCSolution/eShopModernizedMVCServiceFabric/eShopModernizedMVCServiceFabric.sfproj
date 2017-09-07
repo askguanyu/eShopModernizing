@@ -31,6 +31,8 @@
   <ItemGroup>
     <Content Include="ApplicationPackageRoot\EShopModernizedMVCPkg\Config\Settings.xml" />
     <Content Include="ApplicationPackageRoot\EShopModernizedMVCPkg\ServiceManifest.xml" />
+    <Content Include="ApplicationPackageRoot\SqlServerPkg\Config\Settings.xml" />
+    <Content Include="ApplicationPackageRoot\SqlServerPkg\ServiceManifest.xml" />
     <Content Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
