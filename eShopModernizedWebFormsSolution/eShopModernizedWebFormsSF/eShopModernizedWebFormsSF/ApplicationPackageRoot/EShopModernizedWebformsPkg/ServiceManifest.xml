@@ -21,7 +21,6 @@
     <!-- Pass environment variables to your container: -->
     <EnvironmentVariables>
       <EnvironmentVariable Name="ConnectionString" Value="Data Source=sqlserver.eshopmodernized,5433;Database=Microsoft.eShopOnContainers.Services.CatalogDb;User Id=sa;Password=Pass@word"/>
-      <EnvironmentVariable Name="PicBaseUrl" Value="http://your_service_fabric_endpoint:5114/items/[0]/pic/" />
       <EnvironmentVariable Name="UseMockData" Value="False" />
       <EnvironmentVariable Name="UseCustomizationData" Value="False" />
     </EnvironmentVariables>
